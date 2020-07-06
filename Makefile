@@ -69,4 +69,4 @@ errcheck:
 
 gofmt:
 	@echo Checking code is gofmted
-	@test -z "$(shell gofmt -s -l -d -e $(SRCDIRS) | sudo tee /dev/stderr)"
+	@test -z "$(shell gofmt -s -l -d -e $(SRCDIRS) | tee /dev/stderr)"
