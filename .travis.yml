@@ -1,4 +1,7 @@
 language: go
+arch:
+  - amd64
+  - arm64
 go_import_path: github.com/projectcontour/gimbal
 go:
   - 1.13.x
